@@ -1,12 +1,14 @@
 from datetime import datetime
 
+import kivy
 from kivy.app import App
 from kivy.uix.boxlayout import BoxLayout
-from kivy.graphics.texture import Texture
 from kivy.clock import Clock
 
 
 import random
+
+kivy.require("2.0.0")
 
 
 class MyUI(BoxLayout):
